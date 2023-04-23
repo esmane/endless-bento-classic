@@ -9,7 +9,7 @@ function openMenu()
 		document.getElementById("left-side").style.display = "inline-block";
 		document.getElementById("right-side").style.display = "inline-block";
 		document.getElementById("menu-button").innerHTML = "menu";
-		document.getElementById("main-header").innerHTML = "endless bento classic";
+		document.getElementById("main-header").innerHTML = "endless bento";
 	}
 	else
 	{

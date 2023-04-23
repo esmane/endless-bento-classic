@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	top: 0;
-	font-family: Helvetica Neue, Arial, sans-serif;
+	font-family: "Helvetica Neue", Arial, sans-serif;
 	text-align: center;
 	background-color: #baffee;
 }
@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-	margin: 2px;
+	margin: 3px;
 }
 
 h2 {
@@ -24,7 +24,7 @@ h2 {
 	width: 100%;
 	background-color: #a9eedd;
 	top: 0;
-	padding: 0;
+	padding: 0.3em;
 }
 
 /* main */
@@ -37,7 +37,7 @@ h2 {
 /* clues */
 .clue-block {
 	display: inline-block;
-	max-width: 30vw;
+	max-width: 40vw;
 }
 
 .clue-grid {
@@ -138,10 +138,10 @@ h2 {
 }
 
 /* narrow screen */
-@media screen and (max-aspect-ratio: 3/4) {
+@media screen and (max-aspect-ratio: 1/1) {
 	.clue-block {
 		display: inline-block;
-		max-width: 80vw;
+		max-width: 95vw;
 	}
 }
 
